@@ -48,6 +48,23 @@ p{
     padding-bottom: 20px;
 }
 
+button{
+    border: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    height: 2em;
+    width: 2em;
+}
+
+button img{
+    height: 20px;
+    border-radius: 20%;
+}
+
+button img:hover{
+    cursor: pointer;
+}
+
 #explicacao {
     margin-bottom: 63px;
     background-color: #027373;

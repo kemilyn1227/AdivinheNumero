@@ -48,10 +48,12 @@ if(chance <10){
                 if(Palp.value > secret){
                     
                     alt.innerHTML='seu palpite esta muito alto!'
+                    Palp.value =''
                     
                 
                 }else{
                     alt.innerHTML='seu palpite esta muito baixo!'
+                    Palp.value ='' //apagar input depois de digitado 
                   
                    
                 }

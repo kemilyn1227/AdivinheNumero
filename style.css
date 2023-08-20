@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
+}
+
+body{
+    font-family:'Areia movediça', sans-serif;
+    padding: 20px;
+    width: 500px;
+    height: 100vh;
+    font-size: 15px;
+    margin: auto;
+    background-image:linear-gradient(to bottom,#b1eee8,#006e5a);
+    
+
+}
+
+h1{
+
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+}
+
+p{
+   letter-spacing: 1px; 
+   
+}
+
+#jogo{
+    height: 80%;
+
+}
+
+.anter{
+    padding-bottom: 20px;
+}
+
+#explicacao {
+    margin-bottom: 63px;
+    background-color: #027373;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#explicacao p {
+    text-indent: 20px;
+}
+
+.palpite{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.validaçao p{
+    padding-top: 10px;
+
+}
+
+#jogo{
+    background-color:#A9D9D0;
+    padding: 20px;
+    border-radius: 20px;
+    height: 50%;
+}
+
+input{
+    border: none;
+    
+    
+}
+input:hover{
+    transition: 0.5s;
+    box-shadow: 2px 2px 29px rgb(2, 137, 161);
+    background-color: rgb(243, 243, 243);
+    
+}

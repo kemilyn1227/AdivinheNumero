@@ -6,15 +6,26 @@
     <title>Adivinhe o número</title>
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
     <section id="explicacao">
 
-        <h1>Jogo Adivinhe um número</h1>
-        <p>Selecionamos um número aleatório entre 1 a 100.Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite está com valor alto ou baixo</p>
+        <h1>Adivinhe O Número</h1>
+        <div class="texto">
+
+            <p>Selecionamos um número aleatório entre 1 a 100.Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite está com valor alto ou baixo</p>
+
+        </div>
+       
 
     </section>
     <section id="jogo">
+        
+        <hr>
         
         <div class="palpite">
 
@@ -22,9 +33,13 @@
 
           <span><strong>Digite seu palpite:</strong></span>
 
-          <input type="number" name="number" id="number"><button onclick="enviar()">
-            <img src="button/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png" alt="">
-            </button>
+          <input type="number" name="number" id="number">
+          
+          <button onclick="enviar()">
+            <span class="material-symbols-outlined" id="span2">
+                arrow_forward_ios
+            </span>
+          </button>
 
           
 

@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway';
+    
+    letter-spacing: 4px;
+    color: white;
 }
 
 .hidden{
@@ -14,15 +21,20 @@
 }
 
 body{
-    font-family:'Areia movediça', sans-serif;
     padding: 20px;
     width: 500px;
     height: 100vh;
     font-size: 15px;
     margin: auto;
-    background-image:linear-gradient(to bottom,#b1eee8,#006e5a);
+   background-color: rgb(31, 30, 30);
     
 
+}
+
+.texto{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 h1{
@@ -48,26 +60,31 @@ p{
     padding-bottom: 20px;
 }
 
+.certo p{
+    box-shadow: 10px 10px 10px red;
+}
+
+
 button{
     border: none;
-    margin-left: 5px;
+    margin-left: 10px;
     border-radius: 20px;
     height: 2em;
     width: 2em;
+    background-color: rgb(31, 30, 30);;
 }
 
-button img{
-    height: 20px;
-    border-radius: 20%;
+#barra{
+    width: 300px;
 }
 
-button img:hover{
+button span:hover{
     cursor: pointer;
 }
 
+
 #explicacao {
-    margin-bottom: 63px;
-    background-color: #027373;
+    margin-bottom: 30px;
     color: aliceblue;
     padding: 20px;
     border-radius: 20px;
@@ -76,6 +93,7 @@ button img:hover{
 #explicacao p {
     text-indent: 20px;
 }
+
 
 .palpite{
     margin-top: 50px;
@@ -88,20 +106,24 @@ button img:hover{
 }
 
 #jogo{
-    background-color:#A9D9D0;
+    
     padding: 20px;
     border-radius: 20px;
     height: 50%;
 }
 
-input{
+#number{
+
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-size: 13px;
     border: none;
+    padding: 10px;
     
     
 }
 input:hover{
     transition: 0.5s;
-    box-shadow: 2px 2px 29px rgb(2, 137, 161);
-    background-color: rgb(243, 243, 243);
-    
+    box-shadow: 2px 2px 29px rgb(2, 137, 161);  
 }
